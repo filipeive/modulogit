@@ -1,0 +1,207 @@
+
+C:\Users\Filipe dos Santos>git config --global user.name "Filipe dos Santos"
+
+C:\Users\Filipe dos Santos>git config --global user.email "filipe.dossantos@lifechild.org.za"
+
+C:\Users\Filipe dos Santos>git config --global core.editor vscode
+
+C:\Users\Filipe dos Santos>git config user.name
+Filipe dos Santos
+
+C:\Users\Filipe dos Santos>git config user.email
+filipe.dossantos@lifechild.org.za
+
+C:\Users\Filipe dos Santos>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Filipe dos Santos
+user.email=filipe.dossantos@lifechild.org.za
+core.editor=vscode
+
+C:\Users\Filipe dos Santos>cd C:/Users/filipe dos santos
+
+C:\Users\Filipe dos Santos>cd Desktop
+
+C:\Users\Filipe dos Santos\Desktop>Dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 0486-014B
+
+ Pasta de C:\Users\Filipe dos Santos\Desktop
+
+13/10/2022  20:11    <DIR>          .
+13/10/2022  21:13    <DIR>          ..
+13/10/2022  20:11           112.982 Cracha Modelo 2.png
+07/10/2022  11:52             2.350 Microsoft Edge.lnk
+07/10/2022  20:55             1.436 Visual Studio Code.lnk
+10/10/2022  08:49             1.967 Zoom.lnk
+               4 arquivo(s)        118.735 bytes
+               2 pasta(s)   116.007.534.592 bytes disponíveis
+
+C:\Users\Filipe dos Santos\Desktop>cd ..
+
+C:\Users\Filipe dos Santos>cd Desktop
+
+C:\Users\Filipe dos Santos\Desktop>cd ..
+
+C:\Users\Filipe dos Santos>cd ..
+
+C:\Users>cd ..
+
+C:\>cd xampp
+
+C:\xampp>cd htdocs
+
+C:\xampp\htdocs>cd modulo git
+
+C:\xampp\htdocs\modulo git>gi init
+'gi' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>git init
+Initialized empty Git repository in C:/xampp/htdocs/modulo git/.git/
+
+C:\xampp\htdocs\modulo git>cd .git
+
+C:\xampp\htdocs\modulo git\.git>cd dir
+O sistema não pode encontrar o caminho especificado.
+
+C:\xampp\htdocs\modulo git\.git>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 0486-014B
+
+ Pasta de C:\xampp\htdocs\modulo git\.git
+
+13/10/2022  21:53    <DIR>          ..
+13/10/2022  21:53               130 config
+13/10/2022  21:53                73 description
+13/10/2022  21:53                23 HEAD
+13/10/2022  21:53    <DIR>          hooks
+13/10/2022  21:53    <DIR>          info
+13/10/2022  21:53    <DIR>          objects
+13/10/2022  21:53    <DIR>          refs
+               3 arquivo(s)            226 bytes
+               5 pasta(s)   115.987.992.576 bytes disponíveis
+
+C:\xampp\htdocs\modulo git\.git>cd ..
+
+C:\xampp\htdocs\modulo git>tree
+Listagem de caminhos de pasta
+O número de série do volume é 0486-014B
+C:.
+Não existem subpastas
+
+
+C:\xampp\htdocs\modulo git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\xampp\htdocs\modulo git>git add -A
+
+C:\xampp\htdocs\modulo git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+C:\xampp\htdocs\modulo git>git commit -m "Primeiro Commit"
+[master (root-commit) 794a8ed] Primeiro Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\xampp\htdocs\modulo git>clear
+'clear' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>clear
+'clear' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>git log
+commit 794a8ed358f6692f9bf60687a2f434281637ef45 (HEAD -> master)
+Author: Filipe dos Santos <filipe.dossantos@lifechild.org.za>
+Date:   Fri Oct 14 10:03:41 2022 +0200
+
+    Primeiro Commit
+
+C:\xampp\htdocs\modulo git>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\xampp\htdocs\modulo git>git add -A
+
+C:\xampp\htdocs\modulo git>clear
+'clear' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>Clear
+'Clear' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>clear
+'clear' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+        new file:   style.css
+
+
+C:\xampp\htdocs\modulo git>git commit -m "criando os arquivos principais. index e style. bem como modificando o README"
+[master bbfedc4] criando os arquivos principais. index e style. bem como modificando o README
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+C:\xampp\htdocs\modulo git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\xampp\htdocs\modulo git>clean
+'clean' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\xampp\htdocs\modulo git>git log
+commit bbfedc4bc0e9e35058f88cc06eaf2a62e542326a (HEAD -> master)
+Author: Filipe dos Santos <filipe.dossantos@lifechild.org.za>
+Date:   Fri Oct 14 10:10:28 2022 +0200
+
+    criando os arquivos principais. index e style. bem como modificando o README
+
+commit 794a8ed358f6692f9bf60687a2f434281637ef45
+Author: Filipe dos Santos <filipe.dossantos@lifechild.org.za>
+Date:   Fri Oct 14 10:03:41 2022 +0200
+
+    Primeiro Commit
+
+C:\xampp\htdocs\modulo git>
